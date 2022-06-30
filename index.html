@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO-dO List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mycard">
+		<div class="col">
+		  <div class="card h-100">
+			<div class="card mb-3" style="max-width: 540px;">
+				<div class="row g-0">
+				  <div class="col-md-4">
+					<img src="icn.jpeg" class="card-img-top" alt="..." width ="100px"  height ="250px">				  </div>
+				  <div class="col-md-8">
+					<div class="card-body">
+					  <strong><p id="first">Today's List</p></strong>
+					  <input id="userinput" type="text" placeholder="enter items">
+					  <button id="enter">Add in List</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			<!-- <img src="icn.png" class="card-img-top" alt="..." width ="200px"  height ="400px"> -->
+
+			<!-- <strong><p id="first">Today's List</p></strong> -->
+<!-- 		
+			<input id="userinput" type="text" placeholder="enter items">
+		
+			<button id="enter">Add in List</button> -->
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+
+			  <ul class="item-list">
+
+				<li class="item">
+					 <span class="value">Javascript</span>
+				  <button data-action="delete">Delete</button>
+				</li>
+	  
+				<li class="item">
+					 <span class="value">Coffee</span>
+				  <button data-action="delete">Delete</button>
+				</li>
+	  
+				<li class="item">
+					 <span class="value">CSS</span>
+				  <button data-action="delete">DELETE</button>
+				</li>
+	  
+				<li class="item">
+					 <span class="value">Data obeject model</span>
+				  <button data-action="delete">Delete</button>
+				</li>
+	  
+				
+		  </ul>
+	  
+	  
+					  </div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 2 mins ago</small>
+			</div>
+		  </div>
+		</div>
+
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

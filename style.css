@@ -1,0 +1,93 @@
+body{
+  margin-top: 0px;
+  margin-left: 20px;
+  background-image: url("pic1.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+ button{
+   background-color: #b5e7a0;
+ }
+
+.coolTitle {
+/*  text-align: center;*/
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  margin-top: 40px;
+  /*transform: skewY(-6deg);*/
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+
+
+#first{
+  font-family: cursive;
+  font-size: 35px;
+}
+
+#userinput{
+  background-color: #ffeead;
+  font-size: 25px;
+  padding: 8px;
+}
+/* @media screen and (max-width: 996px){
+
+  #userinput{
+    width: 5px;
+    background: #b5e7a0;
+  }
+} */
+  
+
+#enter{
+  
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 8px;
+
+}
+
+
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  width: 15em;
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-bottom: 0.25em;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.item .value {
+  display: flex;
+  flex: 1;
+}
+
+.mycard{
+  justify-content:  center;
+  padding-top: 5%;
+}
