@@ -1,7 +1,7 @@
 body{
   margin-top: 0px;
   margin-left: 20px;
-  background-image: url("pic1.jpeg");
+  background-image: url("pic4.jpeg");
   background-repeat: no-repeat, repeat;
   background-color: #cccccc;
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -9,7 +9,7 @@ body{
 }
 
  button{
-   background-color: #b5e7a0;
+   background-color: #0999a1a8;
  }
 
 .coolTitle {
